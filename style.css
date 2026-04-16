@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin: 0;
+}
+
+.role {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 5px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #334155;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 10px;
+  font-size: 12px;
+}
